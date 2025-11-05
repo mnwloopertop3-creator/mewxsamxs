@@ -1,0 +1,9 @@
+{
+  "name": "albion-flip-tool-api",
+  "version": "1.0.0",
+  "description": "Albion Market Flip Tool API on Vercel",
+  "main": "api/prices.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
