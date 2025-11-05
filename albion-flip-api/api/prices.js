@@ -70,4 +70,5 @@ module.exports = async (req, res) => {
         // ถ้าเกิด Error ในโค้ด จะแสดง 500 แทน 404 ซึ่งช่วยให้เรา Debug ได้
         res.status(500).send(JSON.stringify({ error: error.message, location: "API execution" }));
     }
+
 };
